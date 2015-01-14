@@ -1,6 +1,6 @@
 {
     "name": "hash-manager",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Example package.json. Feel free to copy!",
     "main": "index.js",
     "devDependencies": {

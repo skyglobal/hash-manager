@@ -1,0 +1,9 @@
+test:
+  pre:
+    - npm install -g gulp
+    - gulp build
+  override:
+    - gulp test
+machine:
+  node:
+    version: v0.10.33
