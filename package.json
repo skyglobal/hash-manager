@@ -1,0 +1,18 @@
+{
+    "name": "hash-manager",
+    "version": "0.0.0",
+    "description": "Example package.json. Feel free to copy!",
+    "main": "index.js",
+    "devDependencies": {
+        "gulp": "^3.8.10",
+        "gulp-component-helper": "^0.5.1",
+        "run-sequence": "^1.0.1",
+        "browser-sync": "^1.5.9",
+        "findup-sync": "^0.2.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/skyglobal/hash-manager.git"
+    },
+    "author": "Peter Mouland"
+}
