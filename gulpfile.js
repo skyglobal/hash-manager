@@ -1,16 +1,28 @@
 'use strict';
 
 var gulp = require('gulp');
-var componentHelper = require('gulp-component-helper')(gulp);
-var paths = componentHelper.paths;
-var runSequence = require('run-sequence');
+var helper = require('component-helper');
+var paths = helper.paths;
+var argv = process.argv.slice(3).toString();
 
-gulp.task('pre-build', function(cb){
-    //example pre-build task, which is automatically part of the build process
-    return runSequence('custom-gulp-task-1', cb);
+function onError(err) {
+    console.log(err.message || err);
+    process.exit(1);
+}
+
+gulp.task('build', function() {
+    return helper.build.all().catch(onError)
 });
 
-gulp.task('custom-gulp-task-1', function(cb){
-    //exmape empty task
-   return cb();
+gulp.task('serve',  function() {
+    return helper.serve.all().catch(onError);
+});
+
+gulp.task('test', function(){
+    return helper.test.all().catch(onError);
+});
+
+gulp.task('release', function(){
+    var version = argv.split('--version=')[1];
+    return helper.release.all(null, version).catch(onError);
 });
