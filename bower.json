@@ -1,9 +1,9 @@
 {
   "name": "bskyb-hash-manager",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/skyglobal/hash-manager",
   "authors": [
-    "{{ git.author }} <{{ git.email }}>"
+    "peter-mouland <peter.mouland@gmail.com>"
   ],
   "description": "hash-manager",
   "main": "dist",
