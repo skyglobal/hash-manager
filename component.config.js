@@ -7,6 +7,7 @@ module.exports = {
     buildStyles: 'sass', // or less
     buildHTML: 'html-concat', // moustache or assemble or jekyll
     buildScripts: 'browserify', // or requirejs
+    serve: '_site',
     release: 'aws', // or false,
     releaseConfig: { //add you release config here... this is for AWS
         bucket: process.env.AWS_SKYGLOBAL_BUCKET,
