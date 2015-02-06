@@ -1,4 +1,5 @@
-var event = require('../../bower_components/bskyb-event/src/js/event');
+var core = require('../../bower_components/bskyb-core/src/scripts/core');
+var event = core.event;
 
 var vars = {
     globalHashList: {},
