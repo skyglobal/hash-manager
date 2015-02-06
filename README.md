@@ -1,7 +1,7 @@
 [hash-manager](http://skyglobal.github.io/hash-manager/)  [![Circle CI](https://circleci.com/gh/skyglobal/hash-manager/tree/master.svg?style=svg)](https://circleci.com/gh/skyglobal/hash-manager/tree/master)
 ========================
 
-> Please take a look at the [demo page](http://skyglobal.github.io/hash-manager/)
+> Handle state by assigning URL Hashes to JS functions [demo page](http://skyglobal.github.io/hash-manager/)
 
 
 ## Quick-Start
@@ -18,29 +18,6 @@ or alternatively, **Via Bower**
  * Run: `bower install --save-dev bskyb-hash-manager`
  * Include Sass: `@import 'bower_components/bskyb-hash-manager/src/scss/hash-manager';`
  * Include JS: `var hash-manager = require('../../bower_components/bskyb-hash-manager/src/js/hash-manager');`
-
-
-#### Dependencies
-
-This component relies on other components and you must also include these in your project.
-
- * [Dependency Name](https://github.com/skyglobal/DependencyName)
-
-#### Developer Notes
-
-Choose a type of hash-manager component and copy the relevant html.
- * [example](demo/_includes/example.html)
- * [example](demo/_includes/example.html),
-
-#### Initialise
-
-To enable --descrition here--, the JS must be initialised:
-
-```html
-<script type="text/javascript">
-  skyComponents.hash-manager.init();
-</script>
-```
 
 ## Contribution
 
