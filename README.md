@@ -46,7 +46,7 @@ To enable --descrition here--, the JS must be initialised:
 
 Components depends on collaboration between developers. Contributions of any size are actively encouraged.
 
-[Read More >](CONTRIBUTING.md)
+To see how to build this component locally, read the [contribution guidelines](CONTRIBUTING.md).
 
 ## Browser Support
 
