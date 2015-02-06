@@ -13,9 +13,6 @@
     "!dist/**/*",
     "!src/**/*"
   ],
-  "devDependencies": {
-    "bskyb-grid": "~0.2.0"
-  },
   "dependencies": {
     "bskyb-core": "~0.0.3"
   }
