@@ -9,8 +9,8 @@
 Include the hash-manager assets in your project either as **Static Resources**
 
 ```html
-<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/hash-manager/0.2.2/css/hash-manager.css" />
-<script type="text/javascript" src="http://web-toolkit.global.sky.com/components/hash-manager/0.2.2/js/hash-manager.min.js"></script>
+<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/hash-manager/0.2.3/css/hash-manager.css" />
+<script type="text/javascript" src="http://web-toolkit.global.sky.com/components/hash-manager/0.2.3/js/hash-manager.min.js"></script>
 ```
 
 or alternatively, **Via Bower**

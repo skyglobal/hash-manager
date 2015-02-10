@@ -1,5 +1,9 @@
 # Change Log
   
+## 0.2.3
+
+ * Fixed requirejs version
+
 ## 0.2.2
 
  * Fixed tests

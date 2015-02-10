@@ -445,10 +445,10 @@ module.exports = {
 if (typeof skyComponents === "undefined") window.skyComponents = {};
 skyComponents['hash-manager'] = module.exports;
 },{"../../bower_components/bskyb-core/src/scripts/core":3}],7:[function(require,module,exports){
-var local; local['hash-manager'] = require('./hash-manager');
+var local = {}; local['hash-manager'] = require('./hash-manager');
 
 if (typeof window.define === "function" && window.define.amd) {
-    define('bower_components/bskyb-hash-manager/dist/js/hash-manager.requirejs', [], function() {
+    define('bower_components/bskyb-hash-manager/dist/scripts/hash-manager.requirejs', [], function() {
         'use strict';
         return local['hash-manager'];
     });

@@ -1,11 +1,10 @@
 {
   "name": "hash-manager",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Example package.json. Feel free to copy!",
   "main": "index.js",
   "devDependencies": {
-    "component-helper": "^0.8.8",
-    "findup-sync": "^0.2.1",
+    "component-helper": "^0.8.9",
     "gulp": "^3.8.10"
   },
   "repository": {
