@@ -313,7 +313,7 @@ module.exports = {
     removeEventListener: removeEventListener
 };
 },{}],5:[function(require,module,exports){
-module.exports = "0.0.3";
+module.exports = "0.2.2";
 },{}],6:[function(require,module,exports){
 var core = require('../../bower_components/bskyb-core/src/scripts/core');
 var event = core.event;
